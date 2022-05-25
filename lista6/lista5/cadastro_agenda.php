@@ -27,10 +27,10 @@ echo "Data:" .$data."<br>";
 
 
 
-$sql ="INSERT INTO agenda (nome, apelido, endereco, bairro, cidade, estado, celular, email, telefone, dt_cadastro)
+$sql ="INSERT INTO agenda (nome, email, telefone, apelido, endereco, bairro, cidade, estado, celular, dt_cadastro)
 values ('".$nome. "','".$email."', '".$telefone."','".$apelido."', '".$endereco."','".$bairro."', '".$cidade."','".$estado."','".$celular."','".$data."')";
 
-echo $sql;
+
 
 
         $result = mysqli_query($con, $sql);

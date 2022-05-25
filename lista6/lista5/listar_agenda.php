@@ -29,6 +29,7 @@
            <th>Estado</th>
            <th>Endereço</th>
            <th>celular</th>
+           <th>Dt Cadastro</th>
            
        </tr>
        
